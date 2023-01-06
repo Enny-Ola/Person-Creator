@@ -7,6 +7,7 @@ public class Person {
         private int age;
         private int height;
         private double weight;
+        
     // creating constructor and using get and set methods for properties  
     public Person(String firstName, String lastName, int age, int height, double weight) {
         setFirstName(firstName);
@@ -45,4 +46,11 @@ public class Person {
     public void setWeight(double newWeight) {
         this.weight=newWeight;
     }
+    // create growolder behavioural method 
+    public void growOlder() {
+        this.age = this.age+1;
+        this.height = this.height-1;
+        this.weight = this.weight-0.5;
+ }
+}
 }
