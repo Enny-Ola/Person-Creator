@@ -10,10 +10,11 @@ Person01.setLastName("Peterson");
 Person01.setAge(34);
 Person01.setHeight(180);
 Person01.setWeight(73.5);
+Person01.growOlder();
 System.out.println(Person01.getFirstName() + " " + Person01.getLastName() +
 " is " + Person01.getAge() + " years old, " + 
 Person01.getHeight() + "cms tall, and weighs " + 
-Person01.getWeight() + "lbs.\n");
+Person01.getWeight() + "lbs.");
 
 // set properties for person02 and print their details
 Person02.setFirstName("Bob");
